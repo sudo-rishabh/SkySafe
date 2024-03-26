@@ -1,110 +1,115 @@
 <div id="container" class="container">
-    <!-- FORM SECTION -->
-    <div class="row">
-      <!-- SIGN UP -->
-      <link rel="stylesheet" href="first.css">
+  <!-- FORM SECTION -->
+  <div class="row">
+    <!-- SIGN UP -->
+    <link rel="stylesheet" href="style.css">
 
-      <div class="col align-items-center flex-col sign-up">
-        <div class="form-wrapper align-items-center">
-          <div class="form sign-up">
-            <div class="input-group">
-              <i class='bx bxs-user'></i>
-              <input type="text" placeholder="Username">
-            </div>
-            <div class="input-group">
-              <i class='bx bx-mail-send'></i>
-              <input type="email" placeholder="Email">
-            </div>
-            <div class="input-group">
-              <i class='bx bxs-lock-alt'></i>
-              <input type="password" placeholder="Password">
-            </div>
-            <div class="input-group">
-              <i class='bx bxs-lock-alt'></i>
-              <input type="password" placeholder="Confirm password">
-            </div>
-            <button>
-              Sign up
-            </button>
-            <p>
-              <span>
-                Already have an account?
-              </span>
-              <b onclick="toggle()" class="pointer">
-                Sign in here
-              </b>
-            </p>
+    <div class="col align-items-center flex-col sign-up">
+      <div class="form-wrapper align-items-center">
+        <div class="form sign-up">
+          <div class="input-group">
+            <i class='bx bxs-user'></i>
+          <!--  <input type="text" placeholder="Username">-->
           </div>
-        </div>
-  
-      </div>
-      <!-- END SIGN UP -->
-      <!-- SIGN IN -->
-      <div class="col align-items-center flex-col sign-in">
-        <div class="form-wrapper align-items-center">
-          <div class="form sign-in">
-            <div class="input-group">
-              <i class='bx bxs-user'></i>
-              <input type="text" placeholder="Username">
-            </div>
-            <div class="input-group">
-              <i class='bx bxs-lock-alt'></i>
-              <input type="password" placeholder="Password">
-            </div>
-            <button>
-              Sign in
-            </button>
-            <p>
-              <button>
-                Forgot password?
-              </button>
-            </p>
-            <p>
-              <span>
-                Don't have an account?
-              </span>
-              <b onclick="toggle()" class="pointer">
-                Sign up here
-              </b>
-            </p>
+          <div class="input-group">
+            <i class='bx bx-mail-send'></i>
+          <!-- <input type="email" placeholder="Email">-->
           </div>
-        </div>
-        <div class="form-wrapper">
-  
+          <div class="input-group">
+            <i class='bx bxs-lock-alt'></i>
+          <!-- <input type="password" placeholder="Password">-->
+          </div>
+          <div class="input-group">
+            <i class='bx bxs-lock-alt'></i>
+          <!-- <input type="password" placeholder="Confirm password">-->
+          </div>
+          <p>New to SkySafe?</p>
+          <button class="anchor">
+            <!-- Add sign up cognito URL -->
+            <a href="" style="text-decoration: none; color: white;">Sign up</a>
+          </button>
+          <p>
+            <span>
+              Already have an account?
+            </span>
+            <p class=signup>
+              <b onclick="toggle()" class="pointer link link__3"> Sign in here </b>
+            </p> 
+          </p>
         </div>
       </div>
-      <!-- END SIGN IN -->
-    </div>
-    <!-- END FORM SECTION -->
-    <!-- CONTENT SECTION -->
-    <div class="row content-row">
-      <!-- SIGN IN CONTENT -->
-      <div class="col align-items-center flex-col">
-        <div class="text sign-in">
-          <h2>
-            Welcome to the SkySafe
-          </h2>
-  
-        </div>
-        <div class="img sign-in">
-  
-        </div>
-      </div>
-      <!-- END SIGN IN CONTENT -->
-      <!-- SIGN UP CONTENT -->
-      <div class="col align-items-center flex-col">
-        <div class="img sign-up">
-  
-        </div>
-        <div class="text sign-up">
-          <h2>
-            Be part of our journey
-          </h2>
-          <script src="first.js"></script>
 
+    </div>
+    <!-- END SIGN UP -->
+    <!-- SIGN IN -->
+    <div class="col align-items-center flex-col sign-in">
+      <div class="form-wrapper align-items-center">
+        <div class="form sign-in">
+          <div class="input-group">
+            <i class='bx bxs-user'></i>
+          <!--  <input type="text" placeholder="Username"> -->
+          </div>
+          <div class="input-group">
+            <i class='bx bxs-lock-alt'></i>
+          <!--  <input type="password" placeholder="Password"> -->
+          </div>
+          <p>Already have an account?</p>
+          <button class="anchor">
+            <!-- Add sign in cognito URL -->
+            <a href="" style="color: white;  text-decoration: none">
+              Sign in</a>
+          </button>
+          <!-- <p>
+            <button>
+              Forgot password?
+            </button>
+          </p>-->
+          <p>
+            <span>
+              Don't have an account?
+            </span>
+            <p class=signin>
+              <b onclick="toggle()" class="pointer link link__3"> Sign up here </b>
+            </p> 
+          </p>
         </div>
       </div>
-      <!-- END SIGN UP CONTENT -->
+      <div class="form-wrapper">
+        
+      </div>
     </div>
-    <!-- END CONTENT SECTION -->
+    <!-- END SIGN IN -->
   </div>
+  <!-- END FORM SECTION -->
+  <!-- CONTENT SECTION -->
+  <div class="row content-row">
+    <!-- SIGN IN CONTENT -->
+    <div class="col align-items-center flex-col">
+      <div class="text sign-in">
+        <h2>
+          Welcome to the SkySafe
+        </h2>
+
+      </div>
+      <div class="img sign-in">
+
+      </div>
+    </div>
+    <!-- END SIGN IN CONTENT -->
+    <!-- SIGN UP CONTENT -->
+    <div class="col align-items-center flex-col">
+      <div class="img sign-up">
+
+      </div>
+      <div class="text sign-up">
+        <h2>
+          Securly upload your files to SkySafe at blazzing fast speed
+        </h2>
+        <script src="script.js"></script>
+
+      </div>
+    </div>
+    <!-- END SIGN UP CONTENT -->
+  </div>
+  <!-- END CONTENT SECTION -->
+</div>
